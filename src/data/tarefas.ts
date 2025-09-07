@@ -1,9 +1,12 @@
 export type Tarefa = {
   id: number;
-  titulo: string;
+  nome: string;
+  concluida: boolean;
 };
 
-export const tarefasIniciais: Tarefa[] = [
-  { id: 1, titulo: "Estudar Next.js 15" },
-  { id: 2, titulo: "Praticar testes unitários" },
+export const tarefas: Tarefa[] = [
+  { id: 1, nome: "Estudar Next.js", concluida: false },
+  { id: 2, nome: "Revisar TypeScript", concluida: false },
+  { id: 3, nome: "Escrever testes", concluida: true },
 ];
+

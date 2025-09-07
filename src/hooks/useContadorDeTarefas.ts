@@ -1,5 +1,6 @@
-import { useMemo } from "react";
+import { Tarefa } from "@/data/tarefas";
 
-export function useContadorDeTarefas(tarefas: string[]) {
-  return useMemo(() => tarefas.length, [tarefas]);
+export function useContadorDeTarefas(tarefas: Tarefa[]) {
+  return tarefas.length;
 }
+
