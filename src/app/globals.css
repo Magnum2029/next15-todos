@@ -1,9 +1,6 @@
-@import "tailwindcss";
+@import "tailwindcss";   /* carrega preflight + utilities + helpers */
 
-/* Seus utilitários extras (opcional) */
-.card-glow {
-  box-shadow: 0 0 0 1px rgba(59,130,246,.15), 0 10px 30px rgba(0,0,0,.35);
-}
+
 
 
 
