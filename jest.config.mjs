@@ -5,13 +5,12 @@ const createJestConfig = nextJest({
 });
 
 const customJestConfig = {
-  testEnvironment: "jsdom",
+  testEnvironment: "jest-environment-jsdom",
   setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  // permite usar import mjs/ts/tsx no Jest
-  transform: {},
 };
+
 
 export default createJestConfig(customJestConfig);
