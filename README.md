@@ -1,24 +1,21 @@
-# 📝 Todo List - Next.js 15
+# Next15 Todos
 
-Projeto desenvolvido como prática de **Next.js 15 + TypeScript + Testes Unitários**.
+Aplicação de tarefas feita com **Next.js 15 (App Router) + TypeScript + Tailwind** e testada com **Jest + Testing Library**.
 
-## 🚀 Tecnologias
-- Next.js 15 (App Router)
-- React 19
-- TypeScript
-- Jest
-- Testing Library
+## ✨ Funcionalidades
+- Listagem de tarefas simuladas
+- Adicionar nova tarefa (clique ou Enter)
+- Validação mínima de caracteres (padrão: 3)
+- Acessibilidade: regiões `aria-live`, `role="alert"`, rótulos adequados
+- Testes de unidade para o componente `<NovaTarefa />`
 
-## 📂 Estrutura
-- `app/` → páginas e layout
-- `src/components/` → componentes React
-- `src/hooks/` → hooks personalizados
-- `src/data/` → dados simulados
-- `tests/` → testes unitários
+## 🧱 Requisitos
+- Node.js 18+ (recomendado 20+)
+- npm
 
-## ▶️ Instalação e execução
+## 🚀 Instalação
 ```bash
-git clone https://github.com/Magnum2029/next15-todos.git
+git clone https://github.com/<seu-usuario>/<seu-repo>.git
 cd next15-todos
 npm install
-npm run dev
+
