@@ -1,16 +1,16 @@
 import "./globals.css";
-import { ReactNode } from "react";
+import type { Metadata } from "next";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export const metadata: Metadata = {
+  title: "Next 15 - Todos",
+  description: "Lista de tarefas",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <header className="header">
-          <h1>📝 Todo List - Next.js 15</h1>
-        </header>
-        <main className="container">{children}</main>
-        <footer className="footer">© 2025 - Desenvolvido por Magnum</footer>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
+

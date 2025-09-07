@@ -4,9 +4,10 @@ export type Tarefa = {
   concluida: boolean;
 };
 
-export const tarefas: Tarefa[] = [
+export const tarefasBase: Tarefa[] = [
   { id: 1, nome: "Estudar Next.js", concluida: false },
   { id: 2, nome: "Revisar TypeScript", concluida: false },
   { id: 3, nome: "Escrever testes", concluida: true },
 ];
+
 

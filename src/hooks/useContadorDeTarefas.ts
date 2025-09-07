@@ -1,6 +1,7 @@
-import { Tarefa } from "@/data/tarefas";
+import type { Tarefa } from "@/data/tarefas";
 
-export function useContadorDeTarefas(tarefas: Tarefa[]) {
-  return tarefas.length;
+export function useContadorDeTarefas(lista: Tarefa[]) {
+  return lista.length;
 }
+
 
